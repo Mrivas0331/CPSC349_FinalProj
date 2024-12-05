@@ -1,3 +1,13 @@
-.body {
-    background-color: black;
+body {
+    background-color: beige;
+}
+#Welcome {
+    text-align: center;
+    margin-top: 100px;
+    font-size:xx-large
+}
+#bio {
+    padding-top: 10%;
+    font-size: x-large;
+    margin-right: 60%; 
 }
