@@ -32,3 +32,21 @@ body {
 .navigationbar li {
     float: left;
 }
+
+#capy {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    width: 50%;
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    align-items: center;
+}
+.fade {
+    visibility: visible;
+}
+.capybutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
