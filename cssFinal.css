@@ -50,7 +50,11 @@ body {
     display: block;
     text-align: center;
     display: block;
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    
 }
 .navigationbar a:hover {
     background-color:blanchedalmond;
