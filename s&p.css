@@ -7,8 +7,7 @@ body {
 
 .navigationbar {
     position: relative;
-    bottom: 1020px;
-}
+    top: 10;}
 .navigationbar ul {
     list-style-type: none;
     background-color: antiquewhite;
@@ -24,10 +23,11 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
+    font-weight: bold;
     
 }
 .navigationbar a:hover {
-    background-color:blanchedalmond;
+    background-color:burlywood;
 }
 .navigationbar li {
     float: left;
