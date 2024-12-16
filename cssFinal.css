@@ -1,14 +1,37 @@
 body {
     background-color: beige;
+    
 }
 #Welcome {
-    text-align: center;
-    margin-top: 100px;
-    font-size:xx-large
+    position: absolute;
+    top: 150px;
+    font-size:xx-large;
+    left: 70px;
+    font-weight: bold;
 }
 #bio {
-    padding-top: 10%;
     font-size: x-large;
-    margin-right: 60%; 
-    padding-left: 40px;
+    position: absolute;
+    top:200px;
+    left: 70px;
+    margin-right: 800px;
+}
+.me {
+    position:absolute;
+    top: 150px;
+    right: 0px;
+    width: 50%;
+    height: 50%;
+    
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+.flex img{
+    opacity: 0.5;
+    width: 150px;
 }
