@@ -35,7 +35,7 @@ body {
 
 #capy {
     opacity: 0;
-    transition: opacity 2s ease-in;
+    transition: opacity 7s ease-in;
     width: 50%;
     position: absolute;
     top: 125px;
@@ -49,4 +49,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Opening {
+    font-size: xx-large;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Opening p {
+    font-size: x-large;
+    margin-right: 50%;
+}
+.projects {
+    font-size: large;
+}
+.projects p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+#listies {
+    margin-left: 40px;
+}
+#proj_title {
+    margin-left: 40px;
+}
+#dll img{
+    position: absolute;
+    width: 40%;
+    top: 43%;
+    left: 27%;
+}
+#proj_title2 {
+    margin-top: 160px;
+    margin-left: 40px;
+}
+#phil img {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 87%;
 }

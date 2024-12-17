@@ -29,11 +29,20 @@ body {
     justify-content: space-between;
     padding-right: 100px;
     padding-left: 100px;
-    margin-top: 800px;
+    margin-top: 630px;
 }
 .flex img{
-    opacity: 0.5;
+    opacity: 1;
     width: 200px;
+}
+#brawl > img {
+        opacity: 0.03;
+        position: absolute;
+        width: 100vw;
+        aspect-ratio: 1/1;
+        top: 0;
+        left: 0;
+        z-index: -1;
 }
 .navigationbar {
     position: relative;
