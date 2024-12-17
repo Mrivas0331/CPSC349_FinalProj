@@ -88,3 +88,31 @@ body {
     left: 35%;
     top: 87%;
 }
+#weather img {
+    position: absolute;
+    width: 45%;
+    left: 30%;
+    top: 133%
+    
+}
+#experience_title {
+    margin-top: 300px;
+    font-size: x-large;
+}
+.exp {
+    margin-left: 40px;
+}
+#assureus_time {
+    position: absolute;
+    top: 194.5%;
+    left: 21%;
+}
+#desc {
+    font-size: x-large;
+    margin-right: 15px;
+}
+#dcsa_time {
+    position: absolute;
+    top: 211%;
+    left: 15%;
+}
