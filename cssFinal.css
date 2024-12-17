@@ -46,7 +46,7 @@ body {
 }
 .navigationbar {
     position: relative;
-    /*bottom: 1020px;**/
+    /*bottom: 1020px;*/
 }
 .navigationbar ul {
     list-style-type: none;
@@ -71,4 +71,42 @@ body {
 }
 .navigationbar li {
     float: left;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials ul {
+    list-style-type: none;
+    background-color:darksalmon;
+    overflow: hidden;
+    padding-right: 39px;
+}
+.socials a {
+    color:black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.socials a:hover {
+    background-color:burlywood;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.socials li {
+    float: left;
+}
+#mysocials {
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 114%;
+    left: 43%;
 }
