@@ -116,3 +116,10 @@ body {
     top: 211%;
     left: 15%;
 }
+#planet img {
+    width: 30%;
+    opacity: 0.2;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
